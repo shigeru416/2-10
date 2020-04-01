@@ -62,3 +62,43 @@ main{
 	margin:15px 0 5px;
 	font-size:25px;
 }
+
+@media screen and (max-width:768px){
+	main{
+		width:100%;
+	}
+
+	.box{
+		width:90%;
+		margin-right:0px;
+		margin-left:5%;
+		margin-bottom:20px;
+	}
+
+	.box:last-child{
+		margin-bottom:0;
+	}
+
+	.box-img1{
+	    height:265px;
+    }
+
+    .box-img2{
+        height:265px;
+    }
+
+    .box-img3{
+	    height:265px;
+    }
+
+    .box-title{
+	    font-size:35px;
+    }
+
+    .text{
+	    font-size:29px;
+    }
+    .step-number{
+	    font-size:27px;
+    }
+}
